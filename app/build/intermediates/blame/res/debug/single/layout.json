@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fb.xml",
+        "source": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\src\\main\\res\\layout\\fb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_screen.xml",
+        "source": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\src\\main\\res\\layout\\main_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_list_row.xml",
+        "source": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\src\\main\\res\\layout\\file_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fbrl.xml",
+        "source": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\src\\main\\res\\layout\\fbrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_browser.xml",
+        "source": "C:\\Users\\Mark\\OneDrive\\Programming\\Android SDK\\Android SDK BlackJack\\app\\src\\main\\res\\layout\\file_browser.xml"
+    }
+]

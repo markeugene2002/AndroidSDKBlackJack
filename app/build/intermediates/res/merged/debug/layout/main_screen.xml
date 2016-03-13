@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutBot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+
+        <Button
+            android:id="@+id/dealCardsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="14dp"
+            android:minHeight="60dp"
+            android:minWidth="66dp"
+            android:text="Deal" />
+
+        <Button
+            android:id="@+id/saveGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/dealCardsBtn"
+            android:minHeight="60dp"
+            android:minWidth="66dp"
+            android:text="Save Game"
+            android:width="66dp" />
+
+        <Button
+            android:id="@+id/redealHandsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/saveGameButton"
+            android:minHeight="60dp"
+            android:text="Redeal Exact"
+            android:width="66dp" />
+
+        <Button
+            android:id="@+id/saveExactButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/redealHandsButton"
+            android:maxWidth="66dp"
+            android:minHeight="60dp"
+            android:text="Save Exact" />
+
+    </RelativeLayout>
+
+</LinearLayout>

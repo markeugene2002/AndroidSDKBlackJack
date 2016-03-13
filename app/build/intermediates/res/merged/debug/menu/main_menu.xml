@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/preferences" android:title="@string/preferences">
+        <menu>
+            <group android:id="@+id/group1">
+                <item android:id="@+id/slow" android:title="Slow"/>
+                <item android:id="@+id/medium" android:title="Medium"/>
+                <item android:id="@+id/fast" android:title="Fast"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/savehands" android:title="Save Hands"></item>
+    <item android:id="@+id/choosescreen" android:title="Choose Screen">
+        <menu>
+            <item android:id="@+id/layoutexamples" android:title="Layout Examples"/>
+            <item android:id="@+id/filechooser" android:title="File Chooser"/>
+            <item android:id="@+id/androidchooser" android:title="Android File Chooser"/>
+        </menu>
+    </item>
+    <item android:id="@+id/numdeals" android:title="Number of Deals">
+        <menu>
+            <item android:id="@+id/onedeal" android:title="One Deal"/>
+            <item android:id="@+id/twodeals" android:title="Two Deals"/>
+            <item android:id="@+id/threedeals" android:title="Three Deals"/>
+            <item android:id="@+id/fourdeals" android:title="Four Deals"/>
+        </menu>
+    </item>
+    
+
+</menu>

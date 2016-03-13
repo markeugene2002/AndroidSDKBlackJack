@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlackJack</string>
+    <string name="empty_dir">null</string>
+    <string name="goto_root">Go To Root</string>
+    <string name="hello">Hello World, BlackJackDevActivity!</string>
+    <string name="preferences">Set Deal Speed</string>
+</resources>
