@@ -41,6 +41,7 @@ public class Shoe {
             discards.addAll(deck);
         RandomizeDiscardsIntoShoe();
     }
+
     public void RandomizeDiscardsIntoShoe()  // Shuffle the deck/decks
     {
         int ct = discards.size();
@@ -58,7 +59,7 @@ public class Shoe {
         if (!extDiscard)
             discards.add(card);
         if (shoe.size() < 15)
-            RandomizeDiscardsIntoShoe();
+            RandomizeDiscardsIntoShoe();  // Reshuffle the deck/decks.
 
         TestCards(shoe);
         gameDeal.push(card);

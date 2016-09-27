@@ -278,11 +278,11 @@ public class Hand {
 		}
 		switch (theButton)
 		{
-			case 'C' :	 // Left button:  Hit hand  (Short press)
+			case 'C' :	 // Short click:  Hit hand  (Short press)
 				if (DealOne() == false)
 					that.allowHitNextHand();
 				break;
-			case 'L' :	// Right button:  Stay hand  (Long press)
+			case 'L' :	// Long click:  Stay hand  (Long press)
 				doStay();
 				that.allowHitNextHand();
 				break;
